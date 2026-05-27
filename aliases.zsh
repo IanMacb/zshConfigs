@@ -11,4 +11,4 @@ alias pcs='sudo pacman -S'
 alias pcss='pacman -Ss'
 alias pcsyu='sudo pacman -Syu'
 
-alias gacp='git add . & git commit -m {$1} & git push'
+alias gacp='git add . & git commit'
