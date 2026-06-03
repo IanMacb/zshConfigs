@@ -31,7 +31,7 @@ function pyclean() {
         rm -f $f
 }
 
-my_chpwd_hook() ls -Alh --group-directories-first
+my_chpwd_hook() ls -Alhv --group-directories-first
 chpwd_functions+=( my_chpwd_hook )
 
 
